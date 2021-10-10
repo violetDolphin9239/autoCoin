@@ -9,7 +9,7 @@ import requests
 
 token = "xoxb-2599288514273-2579951298582-la7B25bNuNmZFRlQ4JNi7UV8"
 channel = "#코인매매"
-text = "남준 ㅁㄴㅇㄹㄴㅁㅇㄹ"
+text = "남준!! ㅁㄴㅇㄹㄴㅁㅇㄹ"
 
 requests.post("https://slack.com/api/chat.postMessage",
     headers={"Authorization": "Bearer "+token},
